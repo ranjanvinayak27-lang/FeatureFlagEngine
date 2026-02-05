@@ -1,0 +1,14 @@
+### Create a feature
+POST http://localhost:54123/api/features
+Content-Type: application/json
+
+{
+  "name": "CheckoutV2",
+  "state": false,
+  "description": "New checkout flow"
+}
+
+###
+
+### Get all features
+GET http://localhost:54123/api/features
